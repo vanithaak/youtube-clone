@@ -1,3 +1,6 @@
+/* .container{
+    display: flex;
+} */
 nav{
     display: flex;
     justify-content: space-between;
@@ -15,7 +18,10 @@ body{
     display: flex;
     align-items: center;
 }
-.searchbar{
+
+#voicesearch{
+    background-color: rgb(249,249,249);
+    border-radius: 50%;
 }
 .righticons{
     display: flex;
@@ -38,6 +44,7 @@ padding: 18px 14px;
 .searchbar{
     display: flex;
     align-items: center;
+    margin-right: 8px;
 }
 .searchbtn{
     height: 40px;
@@ -68,4 +75,64 @@ padding: 18px 14px;
 .searchbox:focus{
     border: 1px solid blue;
 
+}
+.righticons{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.topright{
+    border: none;
+    background-color: white;
+}
+#profile{
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+    padding: 1px 16px;
+
+}
+.sidepanel{
+    display: flex;
+    flex-direction: column;
+    padding: 12px 0px;
+    /* flex-basis: 240px; */
+    width: 240px;
+}
+.sideitem{
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 40px;
+    padding: 0px 0px 0px 24px;
+    margin: 0px 16px 0px 0px;
+    font-family: "Roboto", "Noto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    align-items: center;
+    cursor: pointer;
+
+}
+.sideitem .icon{
+    padding: 0px;
+    margin: 0px 24px 0px 0px;
+    height: 28px;
+    width: 28px;
+}
+#home{
+    background-color: rgb(229,229,229);
+}
+hr{
+    background-color: rgb(229,229,229);
+    z-index: 2;
+    
+    border-width: 0px;
+    border-top: 1px solid rgb(229,229,229);
+}
+.sidepanel hr{
+    width: 224px;
+    margin-left: 0px;
+}
+.top{
+    margin-left: 0%;
 }
