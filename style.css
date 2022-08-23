@@ -184,6 +184,8 @@ hr {
     font-size: 14px;
     font-weight: 400;
     align-items: center;
+    cursor: pointer;
+    
     /* text-align: ; */
 }
 #selected{
@@ -196,4 +198,9 @@ hr {
 .top .icon{
     /* justify-content: flex-end; */
     padding: 8px 18px 8px 15px;
+    cursor: pointer;
+}
+.bubble:hover{
+    background-color: rgb(231,231,231);
+    
 }
