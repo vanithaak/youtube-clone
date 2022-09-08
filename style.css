@@ -170,6 +170,7 @@ hr {
     border-left: none;
     border-right: none;
     align-items: center;
+    position: sticky;
 }
 
 .bubble {
@@ -203,4 +204,25 @@ hr {
 .bubble:hover{
     background-color: rgb(231,231,231);
     
+}
+.videoRow{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 16px;
+    justify-content: space-around;
+
+}
+.videoSection{
+    background-color: rgb(249,249,249);
+}
+.thumbnail{
+width: 253.484px;
+height: 142.578px;
+
+}
+.channeldp{
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+    margin: 12px 12px 0px 0px;
 }
