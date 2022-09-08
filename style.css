@@ -214,6 +214,7 @@ hr {
 }
 .videoSection{
     background-color: rgb(249,249,249);
+    padding-top: 24px;
 }
 .thumbnail{
 width: 253.484px;
@@ -225,4 +226,29 @@ height: 142.578px;
     width: 34px;
     border-radius: 50%;
     margin: 12px 12px 0px 0px;
+}
+.videoContents{
+    margin: 0px 8px 40px 8px;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+}
+.details{
+    font-family: "Roboto","Arial",sans-serif;
+    line-height: 18px;
+    /* margin-top: 12px; */
+}
+.title{
+    margin: 0px;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 12px 0px;
+
+}
+.channelName, .viewsNtime{
+    font-size: 12px;
+    margin: 0px;
+    color: rgb(125,125,125);
+
 }
