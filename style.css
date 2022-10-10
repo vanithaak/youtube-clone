@@ -154,6 +154,7 @@ hr {
 
 .top {
     margin-left: 0%;
+    background-color: #181818;
 }
 
 .sidetop {
@@ -180,18 +181,20 @@ hr {
     margin: 12px 12px 12px 0px;
     border: 1px solid rgb(217, 217, 217);
     border-radius: 26px;
-    background-color: rgb(242, 242, 242);
+    background-color: #ffffff1a;
     font-family: "Roboto", "Noto", sans-serif;
     font-size: 14px;
     font-weight: 400;
     align-items: center;
     cursor: pointer;
+    color: white;
     
     /* text-align: ; */
 }
+
 #selected{
-    background-color: rgb(3,3,3);
-    color: white;
+    background-color: white;
+    color: black;
     margin: 12px 12px 12px 24px;
     border: none;
 
@@ -202,7 +205,7 @@ hr {
     cursor: pointer;
 }
 .bubble:hover{
-    background-color: rgb(231,231,231);
+    background-color: rgb(255, 255, 255, 0.5);
     
 }
 .videoRow{
@@ -213,7 +216,7 @@ hr {
 
 }
 .videoSection{
-    background-color: rgb(249,249,249);
+    background-color: #212121;
     padding-top: 24px;
 }
 .thumbnail{
@@ -244,6 +247,7 @@ height: 142.578px;
     font-size: 14px;
     font-weight: 500;
     padding: 12px 0px;
+    color: white;
 
 }
 .channelName, .viewsNtime{
